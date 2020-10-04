@@ -32,7 +32,7 @@ namespace CardTech.ResearchSite
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("This shouldn't work!");
                 });
             });
         }
