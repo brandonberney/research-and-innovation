@@ -35,7 +35,7 @@ namespace CardTech.ResearchSite
 
             app.UseRouting();
 
-	    app.UseStaticFiles();
+            app.UseStaticFiles();
 
             app.UseEndpoints(endpoints =>
             {
