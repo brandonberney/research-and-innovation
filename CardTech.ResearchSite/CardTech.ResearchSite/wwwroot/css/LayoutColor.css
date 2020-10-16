@@ -21,3 +21,8 @@
 .navbar, .nav, .nav-item, .nav-link, .footer {
     color: white;
 }
+
+.main-content {
+    margin: 2.5% auto;
+    border-radius: 7px;
+}
