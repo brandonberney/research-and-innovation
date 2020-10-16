@@ -13,7 +13,7 @@
 </head>
 <body class="d-flex flex-column h-100 custom-background">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand">
                 <img src="https://via.placeholder.com/250x60.png" />
             </a>
@@ -36,7 +36,7 @@
                 </form>
             </div>
         </nav>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg">
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
@@ -63,7 +63,7 @@
             @RenderBody()
         </div>
     </main>
-    <footer class="footer mt-auto py-3 bg-light">
+    <footer class="footer mt-auto py-3">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-auto border-right">
@@ -71,10 +71,10 @@
                 </div>
                 <div class="col-lg-1 border-right">
                     <p>
-                        <a href="#">Login</a>
+                        <a class="footer-link"href="#">Login</a>
                     </p>
                     <p>
-                        <a href="#">Register</a>
+                        <a class="footer-link"href="#">Register</a>
                     </p>
                 </div>
                 <div class="col-lg-3 border-right">
@@ -83,22 +83,22 @@
                             <h5>Contact Us:</h5>
                             <p>
                                 Tel:
-                                <a href="tel:+15028526512">(502) 852-6512</a>
+                                <a class="footer-link"href="tel:+15028526512">(502) 852-6512</a>
                             </p>
                             <p>
                                 Fax:
-                                <a href="tel:+15028528361">(502) 852-8361</a>
+                                <a class="footer-link"href="tel:+15028528361">(502) 852-8361</a>
                             </p>
                         </div>
                         <div class="col-md-6">
                             <p>
-                                <a href="https://twitter.com/UofLInnovate" target="_blank">Twitter</a>
+                                <a class="footer-link"href="https://twitter.com/UofLInnovate" target="_blank">Twitter</a>
                             </p>
                             <p>
-                                <a href="https://www.facebook.com/UofLInnovate" target="_blank">Facebook</a>
+                                <a class="footer-link"href="https://www.facebook.com/UofLInnovate" target="_blank">Facebook</a>
                             </p>
                             <p>
-                                <a href="https://www.linkedin.com/school/uoflinnovate/" target="_blank">LinkedIn</a>
+                                <a class="footer-link"href="https://www.linkedin.com/school/uoflinnovate/" target="_blank">LinkedIn</a>
                             </p>
                         </div>
                     </div>
@@ -108,18 +108,18 @@
                     <div class="row">
                         <div class="col-md-6">
                             <p>
-                                <a href="#">Students</a>
+                                <a class="footer-link"href="#">Students</a>
                             </p>
                             <p>
-                                <a href="#">Community</a>
+                                <a class="footer-link" href="#">Community</a>
                             </p>
                         </div>
                         <div class="col-md-6">
                             <p>
-                                <a asp-page="/Industry">Industry</a>
+                                <a class="footer-link" asp-page="/Industry">Industry</a>
                             </p>
                             <p>
-                                <a asp-page="/Research">Researchers</a>
+                                <a class="footer-link" asp-page="/Research">Researchers</a>
                             </p>
                         </div>
                     </div>

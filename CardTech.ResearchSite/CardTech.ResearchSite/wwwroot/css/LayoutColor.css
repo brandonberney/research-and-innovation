@@ -3,4 +3,16 @@
     background-image: linear-gradient(black, rgb(173, 0, 0));
     background-repeat: no-repeat;
 }
-
+.navbar {
+    background-color: rgb(173, 0, 0);
+    border-bottom: black;
+    color:white;
+}
+.footer {
+    background-color: rgb(173, 0, 0);
+    border-top:black;
+    color:white;
+}
+.nav, .nav-item, .nav-link, .footer-item, .footer-link{
+    color: white;
+}
