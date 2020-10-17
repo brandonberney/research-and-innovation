@@ -1,7 +1,5 @@
 ﻿.custom-background {
-    flex-shrink: 0;
-    background-image: linear-gradient(black, rgb(173, 0, 0));
-    background-repeat: no-repeat;
+    background: linear-gradient(black, rgb(173, 0, 0)) fixed;
 }
 
 .navbar {
