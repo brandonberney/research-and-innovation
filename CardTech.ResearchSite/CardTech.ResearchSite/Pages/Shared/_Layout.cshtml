@@ -7,14 +7,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/LayoutColor.css">
 
     <title>@ViewData["Title"] &mdash; Research & Innovation</title>
 </head>
-<body class="d-flex flex-column h-100">
+<body class="d-flex flex-column h-100 custom-background">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand">
-                <img src="https://via.placeholder.com/250x60.png" />
+                <img class="img-fluid" src="https://via.placeholder.com/250x60.png" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,11 +32,11 @@
                 </ul>
                 <form class="form-inline mr-2 mr-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 mr-sm-0" type="submit">Search</button>
+                    <button class="btn btn-outline-light my-2 mr-sm-0" type="submit">Search</button>
                 </form>
             </div>
         </nav>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg">
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
@@ -58,15 +59,15 @@
         </nav>
     </header>
     <main class="flex-shrink-0" role="main">
-        <div class="container">
+        <div class="container main-content bg-light">
             @RenderBody()
         </div>
     </main>
-    <footer class="footer mt-auto py-3 bg-light">
+    <footer class="footer mt-auto py-3">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-auto border-right">
-                    <img src="https://via.placeholder.com/350x100.png" />
+                    <img class="img-fluid" src="https://via.placeholder.com/350x100.png" />
                 </div>
                 <div class="col-lg-1 border-right">
                     <p>
@@ -123,7 +124,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-lg-1">
                     <p>Powered By CardTech</p>
                 </div>
             </div>
