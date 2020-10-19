@@ -1,0 +1,26 @@
+﻿.custom-background {
+    background: linear-gradient(black, rgb(173, 0, 0)) fixed;
+}
+
+.navbar {
+    background-color: rgb(173, 0, 0);
+    border-bottom: black;
+}
+
+.footer {
+    background-color: rgb(173, 0, 0);
+    border-top: black;
+}
+
+.footer a {
+    color: white;
+}
+
+.navbar, .nav, .nav-item, .nav-link, .footer {
+    color: white;
+}
+
+.main-content {
+    margin: 2.5% auto;
+    border-radius: 7px;
+}
