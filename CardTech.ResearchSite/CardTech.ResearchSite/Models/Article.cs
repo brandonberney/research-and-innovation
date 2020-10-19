@@ -18,3 +18,4 @@ namespace CardTech.ResearchSite.Models
         public string FeaturedImage { get; set; }
         public bool Featured { get; set; }
     }
+}
