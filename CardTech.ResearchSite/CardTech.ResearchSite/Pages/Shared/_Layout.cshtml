@@ -14,7 +14,7 @@
 <body class="d-flex flex-column h-100 custom-background">
     <header>
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand">
+            <a asp-page="/index" class="navbar-brand">
                 <img class="img-fluid" src="https://via.placeholder.com/250x60.png" />
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -30,7 +30,7 @@
             </div>
         </nav>
         <nav class="navbar navbar-expand-lg">
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link" asp-page="/Index">Home <span class="sr-only">(current)</span></a>
