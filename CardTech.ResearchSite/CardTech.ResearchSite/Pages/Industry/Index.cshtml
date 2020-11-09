@@ -1,0 +1,98 @@
+﻿@page
+@model IndustryModel
+@{
+    ViewData["Title"] = "Industry";
+}
+
+<h1>Industry</h1>
+<p>Our goal when engaging with our industry partners is to form a lasting and mutually beneficial relationship. We want to provide the highest quality service in an efficient and timely fashion, while appropriately balancing the interests of UofL, our faculty, staff, and students, and our industry partners.</p>
+
+
+<div class="accordion" id="formsAccordion">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Research Cores & Facilities
+                </button>
+            </h2>
+        </div>
+
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#formsAccordion">
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    <a asp-page="/Industry/Biomedical" class="list-group-item list-group-item-action">Biomedical Cores</a>
+                    <a asp-page="/Industry/Biomedical" class="list-group-item list-group-item-action">Engineering Cores</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Centers & Institutes
+                </button>
+            </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#formsAccordion">
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    <a asp-page="/Industry/Centers" class="list-group-item list-group-item-action">Centers & Institutes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Co-Location & Land
+                </button>
+            </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#formsAccordion">
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    <a asp-page="/Industry/CoLocation" class="list-group-item list-group-item-action">Co-Location & Land</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingFour">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    SBIR/STTR
+                </button>
+            </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#formsAccordion">
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    <a asp-page="/Industry/SBIR" class="list-group-item list-group-item-action">SBIR/STTR</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingFive">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Industry Support Request Form
+                </button>
+            </h2>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#formsAccordion">
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    <a href="https://louisville.edu/research/innovation/industry" target="_blank"
+                       class="list-group-item list-group-item-action">Industry Support Request Form</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
