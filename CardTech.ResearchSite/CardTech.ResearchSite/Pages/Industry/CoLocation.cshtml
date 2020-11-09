@@ -1,0 +1,81 @@
+﻿@page
+@model CardTech.ResearchSite.Pages.CoLocationModel
+@{
+    ViewData["Title"] = "CoLocation";
+}
+
+<h1>Co-Location and Land</h1>
+
+<p>The University of Louisville works with industry to locate on or near campus. This may mean everything from assisting
+    startups with finding co-working space, right up to working with companies to open brand new innovation centers,
+    such as FirstBuild (Haier’s GE Appliances) and HIVE (Kindred Healthcare).</p>
+
+<strong>Campuses</strong>
+
+<div class="accordion" id="LocationAccordion">
+    <div class="card">
+        <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Belknap Campus
+                </button>
+            </h2>
+        </div>
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#LocationAccordion">
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    <p>UofL’s main Belknap Campus sits just south of downtown in the area of historic Old Louisville.
+                        This park-like campus is 287 acres, and is home to seven of our 12 academic colleges, including the J.B.
+                        Speed School of Engineering, Louis D. Brandeis School of Law and College of Arts and Sciences.</p>
+                    <p>Belknap is also home to our world-class sports facilities, including Cardinal Stadium for
+                        football, Owsley B. Frazier Cardinal Park for softball, Cardinal Track and Soccer Stadium,
+                        Bass-Rudd Tennis Center and the Jim Patterson baseball stadium. This campus is also where you
+                        will find our well-stocked Ekstrom Library, newly-renovated Speed Art Museum and our famous cast
+                        of Auguste Rodin's The Thinker statue.</p>
+                    <p><a href="http://louisville.edu/about/belknap-map-pdf/at_download/file">Belknap Campus Map</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Health Science Campus
+                </button>
+            </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#LocationAccordion">
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    <p>In addition to Belknap, our health-related programs are at the Health Sciences Center, located
+                    downtown in the beating heart of the Louisville medical district, which includes UofL Hospital.
+                    Our 243-acre Shelbyhurst Campus is located in Eastern Jefferson County, and offers many professional
+                    development programs and available conference and events space.</p>
+                    <p><a href="https://louisville.edu/about/img/hsc-map-pdf">Health Science Campus Map</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    J.D. Nichols Campus
+                </button>
+            </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#LocationAccordion">
+            <div class="card-body">
+                <div class="list-group list-group-flush">
+                    <p>In downtown Louisville, we have the J.D. Nichols Campus for Innovation and Entrepreneurship, which
+                    is anchored by One Innovation Center. This campus includes co-working space, research facilities and
+                    training programs that help expedite collaboration and shared expertise among researchers and companies.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
