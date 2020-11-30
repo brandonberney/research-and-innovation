@@ -35,7 +35,7 @@ namespace CardTech.ResearchSite
             });
 
             services.AddDbContext<CardTechResearchSiteContext>(options =>
-                    options.UseSqlServer(Configuration.GetConnectionString("CardTechResearchSiteContext")));
+                    options.UseSqlite(Configuration.GetConnectionString("CardTechResearchSiteContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
