@@ -51,11 +51,11 @@
                             Researchers
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Researcher Spotlight</a>
-                            <a class="dropdown-item" href="#">Project Location</a>
+                            <a class="dropdown-item" asp-page="/Research">Researcher</a>
+                            <a class="dropdown-item" asp-page="/Industry/Centers">Project Location</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Researcher Forms</a>
-                            <a class="dropdown-item" href="#">Apply for Research</a>
+                            <a class="dropdown-item" asp-page="/Forms">Researcher Forms</a>
+                            <a class="dropdown-item" asp-page="/Research">Apply for Research</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -63,8 +63,8 @@
                             Industry
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Grant Forms</a>
-                            <a class="dropdown-item" href="#">Industry Forms</a>
+                            <a class="dropdown-item" asp-page="/Grants">Grant</a>
+                            <a class="dropdown-item" asp-page="/Industry">Industry</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" asp-page="/Sponsors">Sponsor a Researcher</a>
                         </div>
