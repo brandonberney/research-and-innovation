@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CardTech.ResearchSite.Pages
 {
-    public class ResearchModel : PageModel
+    public class ResearcherModel : PageModel
     {
         public void OnGet()
         {
