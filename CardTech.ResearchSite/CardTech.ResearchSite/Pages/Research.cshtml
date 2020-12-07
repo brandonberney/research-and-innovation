@@ -1,8 +1,82 @@
 ﻿@page
-@model ResearchModel
+@model ResearcherModel
 @{
     ViewData["Title"] = "Research";
 }
 
 <h1>Research</h1>
 
+<strong>Project Locations</strong>
+
+    <div class="accordion" id="LocationsAccordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Research Centers & Institudes
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#LocationsAccordion">
+                <div class="card-body">
+                    <div class="list-group list-group-flush">
+                        <p>
+                            The University of Louisville supports research centers and
+                            institutes that bring together faculty members from different
+                            disciplines and focus on a particular area of research. Centers
+                            and institutes are established in order to promote the development
+                            of new knowledge and enhance the research productivity of individual faculty
+                        </p>
+                        <p><a asp-page="/Industry/Centers">Locations </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <strong>Forms for Submitting Proposals</strong>
+    <div class="accordion" id="formsAccordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Research Forms
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#formsAccordion">
+                <div class="card-body">
+                    <div class="list-group list-group-flush">
+                        <p>
+                            Having an idea for a research topic is one thing, but making sure you go through the proper steps in order 
+                            to get your project off the ground and running smoothly is important for your research. This is where Forms 
+                            come in to help with this process.
+                        </p>
+                        <p><a asp-page="/Forms" target="_blank" class="list-group-item list-group-item-action">PCF Form</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<strong>Project Spotlight</strong>
+    <div class="accordion" id="ProjectAccordion">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                            data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Project Spotlight
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#ProjectAccordion">
+                <div class="card-body">
+                    <div class="list-group list-group-flush">
+                        <p>
+                            This is where current Research Projects will be showcased to encourage Community and Researcher engagement
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
